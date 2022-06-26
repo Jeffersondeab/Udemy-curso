@@ -9,7 +9,7 @@
 
 ##<a href="https://jeffersondeab.github.io/Udemy-curso/Se%C3%A7%C3%B5es/Se%C3%A7%C3%A3o__4/exerc%C3%ADcio/exerc%C3%ADcio.html">Exercício page - seção 4</a><br>
 
-##<a href="https://github.com/Jeffersondeab/Udemy-curso/blob/main/Se%C3%A7%C3%B5es/se%C3%A7%C3%A3o__5/exerc%C3%ADcio/tabela.html">Exercício tabela - seção 5</a>
+##<a href="http://192.168.0.24:5500/Se%C3%A7%C3%B5es/se%C3%A7%C3%A3o__5/exerc%C3%ADcio/tabela.html">Exercício tabela - seção 5</a>
 
 
 
