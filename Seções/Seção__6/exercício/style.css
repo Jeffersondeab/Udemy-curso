@@ -1,0 +1,41 @@
+.formLogin{
+    width:250px;
+    margin: 50px auto;
+}
+
+.formLogin fieldset{
+    background: #ccc;
+}
+
+.formLogin legend{
+    background: white;
+    display: inline-block;
+    padding: 10px;
+}
+
+.formLogin label{
+    margin-top: 15px;
+    display: block;
+    margin-bottom: 5px;
+} 
+
+#user, #pass, .btn{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+}
+
+#user:focus, #pass:focus{
+    background: #ddd;
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+#user{
+    margin-bottom: 15px;
+}
