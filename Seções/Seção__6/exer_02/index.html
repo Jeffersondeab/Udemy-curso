@@ -9,11 +9,11 @@
 <body>
     <h1>Exemplo de formulario</h1>
 
-    <form action="#" method="GET" class="fornLogin">
+    <form action="#" method="post" class="fornLogin">
         <fieldset>
             <legend>Dados pessoais</legend>
             <label>Email</label>
-            <input type="number" min="0" max="1000">
+            <input type="email" required maxlength="3">
             <br>
             <label>número de filhos</label>
             <input type="number" min="0" max="1000">
@@ -33,6 +33,7 @@
                     Feminino
                 </label>  
             <br>
+            <input type="hidden" name="espira" value="2018-12-30">
             
 
             <label>Estado</label>
@@ -42,8 +43,42 @@
                 <option value="MG">Minas Gereais</option>
             </select>
         </fieldset>
-        <input type="submit" value="mandar">
+
+        <legend>Área de interesse</legend>
+        <label>HTML
+            <input type="checkbox" name="html" value="html">
+        </label>
+        <label>CSS
+            <input type="checkbox" name="css" value="css">
+        </label>
+        <label>JavaScript
+            <input type="checkbox" name="JS" value="JS">
+        </label>
+
+
+        <fieldset>
+            <legend>Mensagem</legend>
+            <textarea name="msg" style="resize:none" cols="30" rows="10" maxlength="10"></textarea>
+            <textarea name="msg" style="resize:none" cols="30" rows="10" readonly>Aqui entra o texto do contrato que precisa ser aceito</textarea>
+            <label><input type="checkbox" checked>Li a aceito</label>
+
+            <input type="range" min="0" max="10" step="2">
+            <input type="time">
+            <input type="color">
+
+            <select>
+                <option>opção1</option>
+                <option>opção2</option>
+                <option>opção3</option>
+                <option>opção4</option>
+                <option>opção5</option>
+            </select>
+        </fieldset> 
+        <br>
         
+        <input type="submit" value="mandar">
+        <input type="button" value="button">
+        <input type="reset" value="reset">
     </form>
 </body>
 </html>
