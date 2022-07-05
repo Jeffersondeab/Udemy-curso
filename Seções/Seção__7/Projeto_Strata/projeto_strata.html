@@ -13,7 +13,7 @@
 </head>
 <body>
     <header class="main-header">
-        <a href="index.html" class="main-header-link">
+        <a href="index.html" class="main-header-link imagem-link">
             <img src="images/avatar.jpg" alt="texto qualquer">
         </a>
         <h1 class="main-header-title">
@@ -37,21 +37,21 @@
 
             <h3>Recent works</h3>
             <article class="recent-works-card">
-                <a href="images/fulls/01.jpg">
+                <a class="imagem-link" href="images/fulls/01.jpg">
                     <img src="images/thumbs/01.jpg" alt="descrição">
                 </a>
                 <p class="recent-works-card-title">Magna sed consequat tempus</p>
                 <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
             </article>
             <article class="recent-works-card">
-                <a href="images/fulls/02.jpg">
+                <a class="imagem-link" href="images/fulls/02.jpg">
                     <img src="images/thumbs/02.jpg" alt="descrição">
                 </a>
                 <p class="recent-works-card-title">Ultricies lacinia interdum</p>
                 <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
             </article>
             <article class="recent-works-card">
-                <a href="images/fulls/03.jpg">
+                <a class="imagem-link" href="images/fulls/03.jpg">
                     <img src="images/thumbs/03.jpg" alt="descrição">
                 </a>
                 <p class="recent-works-card-title">Tortor metus commodo</p>
@@ -88,33 +88,47 @@
             <h3>Get in Touch</h3>
             <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
 
-            <form action="#" method="POST">
-                <label for="nome">nome</label>
-                <input type="text" name="nome" id="nome"> 
+            <div class="row">
+                <div class="col-2-3">
+                    <form action="#" method="POST">
+                        <div class="row">
+                            <div class="col-2">
+                                <label for="nome">nome</label>
+                                <input placeholder="nome completo" type="text" name="nome" id="nome"> 
+                            </div>
+                            
+                            <div class="col-2">
+                                <label for="email">Email</label>
+                                <input type="text" name="email" id="email">
+                            </div>
+                            
+                        </div>
+                            <label for="mensagem">Digite sua mensagem</label>
+                            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                            <input type="submit" value="Enviar" class="butto-default-stroke button-default-big">
+                    </form>
+                </div>
+    
+                <div class="col-1-3">
+                    <address>
+                        <p>
+                            <span>Endereço</span>
+                            Endereço: 1234 Somewhere Rd. Nashville, TN 00000 United States
+                        </p>
+                        <p>
+                            <span>Telefone</span>
+                            000-000-000
+                        </p>
+                        <p>
+                            <span>E-mail</span>
+                            email@server.com
+                        </p>
+                    </address>
+                </div>
+            </div>
 
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email">
-                
-                <label for="mensagem">Digite sua mensagem</label>
-                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
 
-                <input type="submit" value="Enviar">
-            </form>
-
-            <address>
-                <p>
-                    <span>Endereço</span>
-                    Endereço: 1234 Somewhere Rd. Nashville, TN 00000 United States
-                </p>
-                <p>
-                    <span>Telefone</span>
-                    000-000-000
-                </p>
-                <p>
-                    <span>E-mail</span>
-                    email@server.com
-                </p>
-            </address>
+           
          </section>
 
          <section class="main-content-section">
@@ -322,6 +336,8 @@
 
         <input type="submit" class="button-default" value="mandar">
 
+ 
+        
         <h5>Forms</h5>
 
         <label for="name">Nome</label>
@@ -347,8 +363,8 @@
         <label for="msg">Mensagem</label>
         <textarea placeholder="digite uma mensagem" id="msg"></textarea>
 
-        <input type="submit" class="button-default" value="Enviar">
-        <input type="reset" class="button-default-stroke" value="Limpar">
+        <input type="submit" class="button-default button-default-big" value="Enviar">
+        <input type="reset" class="button-default button-default-stroke" value="Limpar">
     </section>
 
     <section class="main-content-section">
