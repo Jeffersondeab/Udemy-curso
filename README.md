@@ -5,7 +5,7 @@
 =======
  <div> 
     <h2>Projetos</h2>
-        <a href="Seções/Seção__7/Projeto_Strata/projeto_strata.htm">
+        <a href="https://github.com/Jeffersondeab/Udemy-curso/blob/main/Se%C3%A7%C3%B5es/Se%C3%A7%C3%A3o__7/Projeto_Strata/projeto_strata.htm">
         projeto Strata
         </a>
  </div>
