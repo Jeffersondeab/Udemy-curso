@@ -5,7 +5,7 @@
 =======
  <div> 
     <h2>Projetos</h2>
-        <a href="http://192.168.0.27:5500/Se%C3%A7%C3%B5es/Se%C3%A7%C3%A3o__7/Projeto_Strata/projeto_strata.htmll">
+        <a href="Seções/Seção__7/Projeto_Strata/projeto_strata.htm">
         projeto Strata
         </a>
  </div>
