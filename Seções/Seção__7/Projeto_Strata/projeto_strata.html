@@ -20,8 +20,11 @@
             Trabalho e groselhas de <br>
             <strong>Daniel Tapias Morales</strong>, <br>
             um zé ninguém qualquer <br>
-            retirado de <a class="main-header-link" href="http://htmlsuo.net">htmlsup.net</a> 
          </h1>
+
+         <p>
+            retirado de <a class="main-header-link" href="http://htmlsuo.net">htmlsup.net</a> 
+         </p>
     </header>
 
     <main class="main-content">
@@ -30,55 +33,65 @@
             <h2 class="title">Quando o header é aside e o aside é o header</h2>
             <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur debitis provident omnis expedita vitae illo doloremque ut saepe. Harum deserunt delectus porro nemo accusamus! Quos omnis deserunt quisquam incidunt accusamus. adipisicing elit. Officiis est amet doloremque itaque blanditiis reprehenderit veritatis. Officia ipsa aliquam dolores, dicta officiis obcaecati fugit, voluptatum corporis quibusdam nostrum at fuga!</p>
 
-            <a href="#" title="veja mais" class="button-default">Veja mais</a>
+            <a href="#" title="veja mais" class="button-default button-default-stroke butgton-default-big">Veja mais</a>
          </section>
 
          <section class="main-content-section">
 
             <h3>Recent works</h3>
-            <article class="recent-works-card">
-                <a class="imagem-link" href="images/fulls/01.jpg">
-                    <img src="images/thumbs/01.jpg" alt="descrição">
-                </a>
-                <p class="recent-works-card-title">Magna sed consequat tempus</p>
-                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-            </article>
-            <article class="recent-works-card">
-                <a class="imagem-link" href="images/fulls/02.jpg">
-                    <img src="images/thumbs/02.jpg" alt="descrição">
-                </a>
-                <p class="recent-works-card-title">Ultricies lacinia interdum</p>
-                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-            </article>
-            <article class="recent-works-card">
-                <a class="imagem-link" href="images/fulls/03.jpg">
-                    <img src="images/thumbs/03.jpg" alt="descrição">
-                </a>
-                <p class="recent-works-card-title">Tortor metus commodo</p>
-                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-            </article>
-            <article class="recent-works-card">
-                <a href="images/fulls/04.jpg">
-                    <img src="images/thumbs/04.jpg" alt="descrição">
-                </a>
-                <p class="recent-works-card-title">Quam neque phasellus</p>
-                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-            </article>
-            <article class="recent-works-card">
-                <a href="images/fulls/05.jpg">
-                    <img src="images/thumbs/05.jpg" alt="descrição">
-                </a>
-                <p class="recent-works-card-title">Nunc enim commodo aliquet</p>
-                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-            </article>
-            <article class="recent-works-card">
-                <a href="images/fulls/06.jpg">
-                    <img src="images/thumbs/06.jpg" alt="descrição">
-                </a>
-                <p class="recent-works-card-title">
-                    Risus ornare lacinia</p>
-                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-            </article>
+            <div class="row">
+                <div class="col-2">
+
+                    <article class="recent-works-card">
+                        <a class="imagem-link" href="images/fulls/01.jpg">
+                            <img src="images/thumbs/01.jpg" alt="descrição">
+                        </a>
+                        <p class="recent-works-card-title">Magna sed consequat tempus</p>
+                        <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                    </article>
+                    <article class="recent-works-card">
+                        <a class="imagem-link" href="images/fulls/02.jpg">
+                            <img src="images/thumbs/02.jpg" alt="descrição">
+                        </a>
+                        <p class="recent-works-card-title">Ultricies lacinia interdum</p>
+                        <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                    </article>
+                    <article class="recent-works-card">
+                        <a class="imagem-link" href="images/fulls/03.jpg">
+                            <img src="images/thumbs/03.jpg" alt="descrição">
+                        </a>
+                        <p class="recent-works-card-title">Tortor metus commodo</p>
+                        <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                    </article>
+                </div>
+
+                <div class="col-2">
+                    <article class="recent-works-card">
+                        <a class="imagem-link" href="images/fulls/04.jpg">
+                            <img src="images/thumbs/04.jpg" alt="descrição">
+                        </a>
+                        <p class="recent-works-card-title">Quam neque phasellus</p>
+                        <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                    </article>
+                    <article class="recent-works-card">
+                        <a href="images/fulls/05.jpg">
+                            <img src="images/thumbs/05.jpg" alt="descrição">
+                        </a>
+                        <p class="recent-works-card-title">Nunc enim commodo aliquet</p>
+                        <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                    </article>
+                    <article class="recent-works-card">
+                        <a href="images/fulls/06.jpg">
+                            <img src="images/thumbs/06.jpg" alt="descrição">
+                        </a>
+                        <p class="recent-works-card-title">
+                            Risus ornare lacinia</p>
+                        <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                    </article>
+                </div>
+            </div>
+
+
 
             <a href="#" title="Veja mais" class="button-default">Veja portifolio completo</a>
          </section>
@@ -145,8 +158,9 @@
             <h6>Título h6</h6>
 
             <blockquote cite="http://developer.mozilla.org">
-                Esta é uma citação tirada da
-                Mozilla Developer Center.
+              <p>Esta é uma citação tirada da
+                Mozilla Developer Center.</p>
+                <p>Outro paragrafo</p>
             </blockquote>
 
             <p>According to Mozilla's website,
@@ -157,13 +171,11 @@
 
             <h4>Preformatado</h4>
 
-            <pre>
-                <code>
+            <pre><code>
 &lt;script&gt;
     alert('oi');
 &lt;/script&gt;
-                </code>
-            </pre>
+            </code></pre>
 
         <h4>Lista</h4>
 
@@ -194,8 +206,8 @@
 
                 <h5>icons</h5>
                 <ul class="ul-icons">
-                    <li><i class="fa-brands fa-twitter"></i></li>
-                    <li><i class="fa-brands fa-facebook-square"></i></li>
+                    <li><span class="hidden">Twitter</span><i class="fa-brands fa-twitter"></i></li>
+                    <li><span class="hidden">Facebook</span><i class="fa-brands fa-facebook-square"></i></li>
                 </ul>
             </div>
         </div>
@@ -339,32 +351,36 @@
  
         
         <h5>Forms</h5>
+        <form action="#" method="post">
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name">
 
-        <label for="name">Nome</label>
-        <input type="text" name="name" id="name">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            
+            <label>Selecione...</label> 
+            <section>
+                <option value="1">HTML</option>
+                <option value="2">CSS</option>
+                <option value="3">JavaScript</option>
+            </section>
 
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email">
+            <label><input type="radio" value="baixa" name="prioridade">Baixa prioridade</label>
+            <label><input type="radio" value="media" name="prioridade">Media prioridade</label>
+            <label><input type="radio" value="alta" name="prioridade">Alta prioridade</label>
 
-        <section>
-            <option value="0">Selecione...</option>
-            <option value="1">HTML</option>
-            <option value="2">CSS</option>
-            <option value="3">JavaScript</option>
-        </section>
+            <label><input type="checkbox" name="copy" value="1">Envie-me uma cópia</label>
+            <label><input type="checkbox" name="Human" value="1">Sou humano</label>
 
-        <label><input type="radio" value="baixa" name="prioridade">Baixa prioridade</label>
-        <label><input type="radio" value="media" name="prioridade">Media prioridade</label>
-        <label><input type="radio" value="alta" name="prioridade">Alta prioridade</label>
+            <label for="msg">Mensagem</label>
+            <textarea placeholder="digite uma mensagem" id="msg"></textarea>
 
-        <label><input type="checkbox" name="copy" value="1">Envie-me uma cópia</label>
-        <label><input type="checkbox" name="Human" value="1">Sou humano</label>
+            <input type="submit" class="button-default button-default-big" value="Enviar">
+            <input type="reset" class="button-default button-default-stroke" value="Limpar">
 
-        <label for="msg">Mensagem</label>
-        <textarea placeholder="digite uma mensagem" id="msg"></textarea>
+        </form>
 
-        <input type="submit" class="button-default button-default-big" value="Enviar">
-        <input type="reset" class="button-default button-default-stroke" value="Limpar">
+
     </section>
 
     <section class="main-content-section">
@@ -374,13 +390,16 @@
             <img src="images/fulls/01.jpg" alt="">
         </div>
 
-        <div class="gallery-thumb">
-            <img src="images/thumbs/01.jpg" alt="">
-            <img src="images/thumbs/02.jpg" alt="">
-            <img src="images/thumbs/03.jpg" alt="">
-            <img src="images/thumbs/04.jpg" alt="">
-            <img src="images/thumbs/05.jpg" alt="">
-            <img src="images/thumbs/06.jpg" alt="">
+        <div class="gallery-thumb row">
+            <img class="col-1-3" src="images/thumbs/01.jpg" alt="">
+            <img class="col-1-3" src="images/thumbs/02.jpg" alt="">
+            <img class="col-1-3" src="images/thumbs/03.jpg" alt="">
+            <img class="col-1-3" src="images/thumbs/04.jpg" alt="">
+            <img class="col-1-3" src="images/thumbs/05.jpg" alt="">
+            <img class="col-1-3" src="images/thumbs/06.jpg" alt="">
+            <img class="col-1-3" src="images/thumbs/03.jpg" alt="">
+            <img class="col-1-3" src="images/thumbs/02.jpg" alt="">
+            <img class="col-1-3" src="images/thumbs/01.jpg" alt="">
         </div>
 
         <h4>Left &amp; Right</h4>
@@ -395,7 +414,10 @@
     </main>
 
     <footer class="main-footer">
-
+        <ul class="copyright">
+            <li><a class="icon-link"  href="#"><span class="hidden">Twitter</span><i class="fab fa-twitter"></i></a></li>
+            <li><a class="icon-link" href="#"><span class="hidden">Facebook</span><i class="fab fa-facebook-square"></i></a></li>
+        </ul>
     </footer>
 </body>
 </html>
