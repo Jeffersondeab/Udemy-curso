@@ -2,19 +2,14 @@
  
  🚧 Projeto em andamento 🚧
  
-<<<<<<< HEAD
- 
-
 =======
  <div> 
     <h2>Projetos</h2>
-        <a href="http://192.168.0.27:5500/Se%C3%A7%C3%B5es/Se%C3%A7%C3%A3o__7/Projeto_Strata/projeto_strata.html">
+        <a href="http://192.168.0.27:5500/Se%C3%A7%C3%B5es/Se%C3%A7%C3%A3o__7/Projeto_Strata/projeto_strata.htmll">
         projeto Strata
         </a>
  </div>
  
- 
->>>>>>> 7f737243b35238e1ecec711ba1369f2eda7397b2
 <div>
     <h2>Exercícios</h2>
 ##<a href="https://jeffersondeab.github.io/Udemy-curso/Se%C3%A7%C3%B5es/Se%C3%A7%C3%A3o__2/curr%C3%ADculo_exerc%C3%ADcio/index.html">Exercício Currículo</a><br>
