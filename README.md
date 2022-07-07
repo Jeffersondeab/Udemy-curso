@@ -6,8 +6,8 @@
  <div> 
     <h2>Projetos</h2>
         <a href="https://jeffersondeab.github.io/Udemy-curso/Se%C3%A7%C3%B5es/Se%C3%A7%C3%A3o__8/Projeto_Strata/projeto_strata.html">Projeto Strata</a>
-
-        <a href="Seções/Seção__10/Projeto_AngelsHotels/Projeto_AngelsHotels.html">Projeto AngelsHotels</a>
+        <br>
+        <a href="https://jeffersondeab.github.io/Udemy-curso/Se%C3%A7%C3%B5es/Se%C3%A7%C3%A3o__10/Projeto_AngelsHotels/Projeto_AngelsHotels.html">Projeto AngelsHotels</a>
  </div>
  
 <div>
