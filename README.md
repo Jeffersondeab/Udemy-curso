@@ -5,7 +5,7 @@
 =======
  <div> 
     <h2>Projetos</h2>
-        <a href="Seções/Seção__7/Projeto_Strata/projeto_strata.html">
+        <a href="./Seções/Seção__8/Projeto_Strata/projeto_strata.html">
         projeto Strata
         </a>
  </div>
