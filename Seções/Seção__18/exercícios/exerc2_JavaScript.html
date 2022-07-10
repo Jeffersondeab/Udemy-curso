@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Logica de Programação Javascript</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Operadores lógicos</h1>
+
+        <p>! não <br>
+           && E (and) <br>
+           || ou (or)</p>
+    </body>
+    
+    <script>
+        var n1 = parseFloat(prompt('Dígite um número:'));
+
+        var n2 = parseFloat(prompt('Dígite outro número:'));
+        
+        var media = n1 + n2 / 2;
+
+
+        if(media > 5 && n1 > 0 && n2 > 0){
+            alert('Você foi aprovado');
+        }else{
+            alert('Desculpa, mas não foi dessa vez')
+        } 
+
+        /* A sequência fez com que funcionasse corretamente.
+        a média precisa ser acima de 5 e não pode ser número abaixo de 
+        0  */
+
+    /*     UTILIZANDO OU ||
+        
+        if(n1 === 0 || n2 === 0 || media <= 5){
+            alert('Você foi reprovado')
+        }else{
+            alert('você foi aprovado')
+        }
+         */
+        
+    </script>
+</html>
