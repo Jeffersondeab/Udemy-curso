@@ -8,7 +8,7 @@
         <a href="https://jeffersondeab.github.io/Udemy-curso/Se%C3%A7%C3%B5es/Se%C3%A7%C3%A3o__8/Projeto_Strata/projeto_strata.html">Projeto Strata</a>
         <br>
         <a href="https://jeffersondeab.github.io/Udemy-curso/Se%C3%A7%C3%B5es/Se%C3%A7%C3%A3o__10/Projeto_AngelsHotels/Projeto_AngelsHotels.html">Projeto AngelsHotels</a>
-        <a>http://192.168.0.250:5501/Se%C3%A7%C3%B5es/Se%C3%A7%C3%A3o__20/Projeto_dashboard/projeto_dashboard.htm</a>
+        <a>/Seções/Seção__20/Projeto_dashboard/projeto_dashboard.htm</a>Prjeto Dashboard
  </div>
  
 <div>
